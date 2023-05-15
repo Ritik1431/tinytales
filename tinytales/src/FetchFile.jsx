@@ -81,14 +81,14 @@ function FetchFile() {
                 <BarChart data={barDataArray} width={400} height={400}>
                   <XAxis dataKey="letter">
                     <Label
-                      value="20 Most Occurring Letters"
+                      value="Top 20 Most Occurring Letters --->"
                       offset={-2}
                       position="insideBottom"
                     />
                   </XAxis>
                   <YAxis dataKey="frequency">
                     <Label
-                      value="Frequency Of Letters"
+                      value="Frequency Of Letters ---->"
                       angle={-90}
                       position="left"
                       offset={-1}
